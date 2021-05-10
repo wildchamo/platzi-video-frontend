@@ -24,6 +24,7 @@ header img{
     position: absolute;
     width: 100px;
     text-align: right;
+    margin-left:-14px ;
     /* display: none; */
 }
 
