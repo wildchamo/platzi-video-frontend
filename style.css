@@ -60,7 +60,6 @@ header img{
 
 }
 .header__menu--profile p{
-    padding-top: 7px;
-    padding-left: 8px;
     color: white;
+    padding: 12px;
 }
