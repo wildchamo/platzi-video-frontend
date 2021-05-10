@@ -63,3 +63,23 @@ header img{
     color: white;
     padding: 12px;
 }
+main{
+    height:300px;
+}
+.main__titulo{
+    color: white;
+    font-size: 25px;
+}
+.main__input{
+    border:2px solid white;
+    border-radius: 25px;
+    color: white;
+    font: size 16px;
+    padding: 0 20px;
+    height: 40px;
+    width: 70%;
+    background-color:rgba(255,255,255,0.1);
+}
+::placeholder{
+    color: white;
+}
