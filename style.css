@@ -5,6 +5,7 @@
 }
 body{
     background-color:#21C08B;
+    font-family: 'Mulish', sans-serif;
 }
 header{
     
@@ -22,7 +23,10 @@ header img{
 .header__menu{
     margin-right: 30px;
 }
-
+.header__menu--profile{
+    display: flex   ;
+    align-items: center;
+}
 .header__menu--profile img{
     width: 50px;
 }
@@ -33,7 +37,7 @@ header img{
     position: absolute;
     width: 100px;
     text-align: right;
-    margin-left:-14px ;
+    margin-left:8px ;
     display: none;
 }
 .header__menu:hover ul, ul:hover{
@@ -46,10 +50,17 @@ header img{
     color:white;
     text-decoration:none;
 }
-
-
-.header__menu--profile{
-    margin-right: 8px;
-    width: 40px;
+.header__menu li a:hover{
+    text-decoration:underline ;
 }
 
+.header__menu--profile{
+    margin-right: 60px;
+    width: 40px;
+
+}
+.header__menu--profile p{
+    padding-top: 7px;
+    padding-left: 8px;
+    color: white;
+}
