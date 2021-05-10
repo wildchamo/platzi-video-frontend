@@ -3,21 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
+body{
     background-color:#21C08B;
+}
+header{
+    
     width:100%;
     height:80px;
+    display:flex;
+    justify-content: space-between;
 }
 
 header img{
-    width:200px;
+    width: 200px;
     margin-top:10px;
     margin-left:10px;
 }
 .header__menu{
     margin-right: 30px;
-
 }
+
+.header__menu--profile img{
+    width: 50px;
+}
+
 .header__menu ul{
     list-style:none;
     padding:0px;
@@ -25,8 +34,19 @@ header img{
     width: 100px;
     text-align: right;
     margin-left:-14px ;
-    /* display: none; */
+    display: none;
 }
+.header__menu:hover ul, ul:hover{
+    display: block;
+}
+.header__menu li{
+    margin:10px 0px;
+}
+.header__menu li a{
+    color:white;
+    text-decoration:none;
+}
+
 
 .header__menu--profile{
     margin-right: 8px;
