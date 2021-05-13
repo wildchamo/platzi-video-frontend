@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+
 }
 header{
  
@@ -38,7 +40,7 @@ header{
     border-radius: 40px;
     color: white;
     min-height: 700px;
-    width:300px;
+    width:400px;
 }
 
 .login__container-form{
@@ -68,4 +70,43 @@ header{
     align-items: center;
     font-size: 14px;
     margin-bottom: 10px;
+}
+.login__container-socialmedia > div > img{
+    width:30px;
+    margin-right: 10px;
+}
+
+.login-container-registro{
+    font-size: 14px;
+    
+}
+.login-container-registro a{
+    font-size: 16px;
+    color: white;
+    font-weight:bold;
+
+}
+.login-container-registro a:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.login-container-registro a{
+    font-size: 16px;
+    color: white;
+    font-weight:bold;
+
+}
+.input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid white;
+    margin-bottom:20px;
+    padding:0px 20px;
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: 'Muli', sans-serif;
+
 }
