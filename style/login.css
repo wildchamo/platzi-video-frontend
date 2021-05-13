@@ -3,6 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+ 
+        align-items: center;
+        background-color: #21c08b;
+        color: white;
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+        top: 0px;
+        width: 100%;
+    
+}
+.header__img {
+    margin-left: 30px;
+    width: 200px;
+  }
 
 .login{
     background: linear-gradient(#21C08B,#AB88FF);
@@ -45,4 +61,11 @@
 }
 .login__container--remember-me a:hover{
     text-decoration: underline;
+}
+
+.login__container-socialmedia > div{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
