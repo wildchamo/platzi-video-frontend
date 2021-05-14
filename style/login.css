@@ -131,4 +131,15 @@ footer{
     align-items:center;
     height:100px;
     width: 100%;
+
+}
+footer > a{
+    cursor:pointer;
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+    padding-left:30px;
+}
+footer a:hover{
+    text-decoration: underline;
 }
